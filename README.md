@@ -26,13 +26,24 @@ The platform has three major functions:
 
 One of the primary elements used on this platform is a leaflet web map that is centered on the Jebel Mara region of Darfur. Depending on which button is pressed, the web map changes size to accomodate other elements on the screen. The map displays various markers of where the attacks occured, and most of the markers have a pop-up text box once clicked by the user.
 
-The left most side of the page primarily consists drop down buttons, text boxes and other buttons. When a button is clicked, it displays further text to provide further context about the subject. For example, when the dropdown button "Burned Villages" is pressed, it displays a text box that outlines when these villages began getting attacked and how these villages were often burned in the process. 
+The left most side of the page primarily consists drop down buttons, text boxes and other buttons. When a button is clicked, it displays further text to provide further context about the subject. For example, when the dropdown button "Burned Villages" is pressed, it displays a text box that outlines when these villages began getting attacked and how these villages were often burned in the process. There are also three other standard buttons that users can press to get additional information. This includes the bottom for "Link to the Report", "Take Action", and "About the Platform". Pressing "Link to the Report" will take the user to another site where they can download a report of the atrocities that occured, whereas "Take Action" and "About the Platform" will open up in-page text pop-ups that provide additional information about the project and how people can take action.
 
 #### Audience
 
-The audience for this
+The audience for this project appears to be members of the general public, potentially members of the various governments, and people who are looking to be educated about injustices throughout the world.
+
+Since these attacks occured in highly dangerous and unstable regions of Sudan, it can be challenging to fully investigate the claims about the attacks. However, through the use of satallite imagery, it can be difficult to hide clear destruction. Before and after satallite images shown on this page help to provide evidence for the claims made, as getting additional documentation (photos of burned villages, bodies, residue of chemical weapons) is unfeasible to get since the area is so dangerous. It would be difficult to get a team of outsiders into the region without putting their lives at risk.
+
+I think another important audience are people who want to make a greater contribution to hold people accountable for events such as this. When a user clicks the "Take Action" button, they are directed to sign up for the "Amnesty Decoders" project, which is a group of volunteers who helps Amnesty International do their research. Here is how Amnesty International describes the project:
+
+```"Amnesty Decoders is an innovative platform for volunteers around the world to use their computers or phones to help our researchers sift through pictures information and documents"```
+
+Source:https://decoders.amnesty.org/
+
 
 #### Authors and their affiliations
+
+The primary authors of this project are Amnesty International and SITU Research.
 
 #### Data Collection Date
 
