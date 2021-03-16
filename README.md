@@ -45,11 +45,23 @@ Source:https://decoders.amnesty.org/
 
 The primary authors of this project are Amnesty International and SITU Research.
 
+Amnesty international is an orgranization that fights against human rights abuses across the world, and helps raise awareness of abuses, who was affected by them, and who caused them.
+
+According to the platform page, SITU Research "is an interdisciplinary practice working in design, visualization and spatial analysis" (background information on SITU research can be found by clicking on the "About the Platform Button"). Based on the description given, it appears that SITU Research's main work on this project was to design the interactive platform, while Amnesty International gathered the data for the platform.
+
 #### Data Collection Date
+
+It is not clear specifically when the data was collected, though we can assume most of the data was collected at various points in 2016 since this is the date in which the report the platform was based on was published. Additionally, it looks as though Amnesty International collected data between January and September of 2016, potentially indicating that there could have been further attacks that occured outside this time window (source: pg. 4-5 of the Amnesty International report: https://www.amnesty.org/en/documents/afr54/4877/2016/en/).
 
 #### Data Sources
 
+The data sources for this project appear to be individuals who witnessed the attacks first hand and were interviewed by Amnesty International. Additionally, satallite imagery was also a source for confirming the destruction of villages in the region, as the satallite images showed clear signs of burned areas and rubble where the villages were located.
+
+Additionally, Amnesty International sought outside advice to help verify claims that chemical weapons were used. While it cannot be confirmed with complete confidence that chemical weapons were used (since this would require investigators to travel to the region to conduct their analysis), the experts they sought deemed that the pictures of injuries and symptoms of surviors "strongly suggest that chemical weapons agents were used in the attacks" (source: pg. 5 of the Amnesty International report: https://www.amnesty.org/en/documents/afr54/4877/2016/en/).
+
 ## Systematic Architecture
+
+
 
 ## UI/UX Critique
 
