@@ -63,13 +63,40 @@ Additionally, Amnesty International sought outside advice to help verify claims 
 
 ## Systematic Architecture
 
+#### Client:
 
+- This web app appears to use a variety of stylesheets, though Bootstrap appears to be the primary front-end framework used for this site.
+- Leaflet.js is one of the other major frameworks used. While Bootstrap might be useful for general front-end work, Leaflet.js is the backbone for creating the map functionality on the page.
+
+Additional services used:
+- JQuery
+- Bing.js
+- facebook-jssdk
+- AWS
+
+#### Server
+
+- Some of the images come from AWS, while others are stored in local files on the browser
+
+#### Data
+
+- It appears that much of the data has already been loaded onto the client side. But some of the data also appears to be coming from AWS since certain icon images are linked under AWS file names
+- Additionally, it looks as though the actual marker location itself was hardcoded into the Leaflet map object itself, as there are no GeoJSON or other spatial data files to be found
+- I wasn't able to find any obvious open connections to databases, which further reinforces my belief that most of the data is just being loaded directly onto the clients browser as opposed to making any calls to geodatabases after the fact
+
+
+Major functions:
+
+- There is a Google Analytics function which is presumably used to track how users interact with the site. By including this function, Amnesty International and SITU are able to measure the performance of the site and measure what they might need to improve on.
+-
 
 ## UI/UX Critique
 
 While this project is somewhat reponsive in the sense that it can be resized to fit larger or smaller browser sizes, it is not completely responsive. In fact, it cannot work on modile devices at all. When I attempted to view the platform on my phone, I recieved a message that simply said "this platform, a collaboration between SITU Research and Amnesty International, is optimized for desktop viewing." Even though it might be optimized for desktop viewing, I think this might be a major turn off for many users, since many people use their phones as their primary means of browsing the internet. Amnesty International has limited opportunities to get users to become engaged in their platform, and many people who are unable to view it on their phone will likely forget to visit the platform on their computer.
 
-## Pros and Cons of this project
+Despite this limitation, I do think that the rest of the design works well. I think they made the perfect choice in making the basemap satallite imagery, as this is the clearest possible picture for someone to see the aftermath of the attacks on the villages. The thematic layer of the map displays the locations of the various attacks that occured in the Jebel Marra region. Depending on what dropdown button is pressed on the left side of the page, the types of markers on the map change to reflect the dropdown button. For example, the "Overview" button lists points of all the recorded attacks along with their dates. The "Burned Villages" button leads to only villages that have been varified through satilite imagery to have been burned show up as markers on the map. The same thing goes for the "Chemical Weapons" button, in which markers of locations where chemical weapons attacks occured.
+
+## Pros and Cons of this Project
 
 #### Pros
 
@@ -86,3 +113,9 @@ While this project is somewhat reponsive in the sense that it can be resized to 
 One notable thing that access to satallite imagery presents is an overwhealming sense of surveillance over the world. Dispite the fact that there could be something going on in a remote/desolate area of the world, someone in a far away location can witness what happened in that remote area. In many ways, I think this idea can be scary. Everything we do can be watched by prying eyes, and we don't really get a say in the matter. The satellites are thousands of miles away from us, and there's not always much we can do to shield ourselves from this surveillance. Even for individuals, people can log onto Google Maps or Google Earth and survey a quite a bit of some place. You want to know what your neighbors back yard looks like? Easy, just zoom in on their location and enable 3d buildings. You can get a pretty good sense of the location just from doing this. Is this always bad? No. But the issue is it can be difficult (or impossible) for people to opt out if they want to.
 
 However, this surveillance also means that it can be easier to catch bad actors when attrocities are commited. As we've seen from the Amnesty International platform, satallite imagery provides evidence for things that would otherwise be difficult to prove. Better yet, the evidence is highly visual, which makes it easy for people of any background to see what has happened. Because of this, it is harder for human rights violators to deflect accusations, as the world is watching what they do. Even if they prevent people from accessing the locations in which they occur, they can still be caught. I think this is a very positive thing, and in this case I am glad that it is not so easy to shield against satallite imagery.
+
+## References
+
+The platform: http://darfurconflict2016.amnesty.org/report/7
+
+The Amnesty International Report: https://www.amnesty.org/en/documents/afr54/4877/2016/en/
