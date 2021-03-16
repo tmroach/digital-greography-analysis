@@ -28,6 +28,8 @@ One of the primary elements used on this platform is a leaflet web map that is c
 
 The left most side of the page primarily consists drop down buttons, text boxes and other buttons. When a button is clicked, it displays further text to provide further context about the subject. For example, when the dropdown button "Burned Villages" is pressed, it displays a text box that outlines when these villages began getting attacked and how these villages were often burned in the process. There are also three other standard buttons that users can press to get additional information. This includes the bottom for "Link to the Report", "Take Action", and "About the Platform". Pressing "Link to the Report" will take the user to another site where they can download a report of the atrocities that occured, whereas "Take Action" and "About the Platform" will open up in-page text pop-ups that provide additional information about the project and how people can take action.
 
+There are also icons on the bottom left of the screen that allow people to share the platform on either Twitter or Facebook.
+
 #### Audience
 
 The audience for this project appears to be members of the general public, potentially members of the various governments, and people who are looking to be educated about injustices throughout the world.
@@ -65,7 +67,22 @@ Additionally, Amnesty International sought outside advice to help verify claims 
 
 ## UI/UX Critique
 
+While this project is somewhat reponsive in the sense that it can be resized to fit larger or smaller browser sizes, it is not completely responsive. In fact, it cannot work on modile devices at all. When I attempted to view the platform on my phone, I recieved a message that simply said "this platform, a collaboration between SITU Research and Amnesty International, is optimized for desktop viewing." Even though it might be optimized for desktop viewing, I think this might be a major turn off for many users, since many people use their phones as their primary means of browsing the internet. Amnesty International has limited opportunities to get users to become engaged in their platform, and many people who are unable to view it on their phone will likely forget to visit the platform on their computer.
 
 ## Pros and Cons of this project
 
+#### Pros
+
+- This project found ways to document and verify human rights violations without directly sending people into the dangerous region in which they occured.
+- The evidence presented for the attacks was visual, which can easily show the damage that occured.In addition to high quality before and after satallite images, there are also many images taken by villagers that show the damage on the ground.
+- While the photos of the chemical attacks might be grusome, the presence of them on the platform helps provide transparency over the claims since other experts outside of Amnesty International can review the evidence and offer their opinions.
+
+#### Cons
+
+- There does not appear to be any updates about the situation posted on the platform. Though this event occured in 2016, I am curious to know if any progress was made as a result of this platform. The way it is now, it seems like the platform was a one-off, so I'm not sure if the status of this issue. I think it would be good if they had a section within the platform where they detail any updates or any progress that has been made as a result of their advocacy efforts. While I applaud Amnesty International for documenting this issue, I'm not sure how much of a benefit the project will be if the findings were mentioned once but then never revisited.
+
 ## Further Critical Analysis
+
+One notable thing that access to satallite imagery presents is an overwhealming sense of surveillance over the world. Dispite the fact that there could be something going on in a remote/desolate area of the world, someone in a far away location can witness what happened in that remote area. In many ways, I think this idea can be scary. Everything we do can be watched by prying eyes, and we don't really get a say in the matter. The satellites are thousands of miles away from us, and there's not always much we can do to shield ourselves from this surveillance. Even for individuals, people can log onto Google Maps or Google Earth and survey a quite a bit of some place. You want to know what your neighbors back yard looks like? Easy, just zoom in on their location and enable 3d buildings. You can get a pretty good sense of the location just from doing this. Is this always bad? No. But the issue is it can be difficult (or impossible) for people to opt out if they want to.
+
+However, this surveillance also means that it can be easier to catch bad actors when attrocities are commited. As we've seen from the Amnesty International platform, satallite imagery provides evidence for things that would otherwise be difficult to prove. Better yet, the evidence is highly visual, which makes it easy for people of any background to see what has happened. Because of this, it is harder for human rights violators to deflect accusations, as the world is watching what they do. Even if they prevent people from accessing the locations in which they occur, they can still be caught. I think this is a very positive thing, and in this case I am glad that it is not so easy to shield against satallite imagery.
